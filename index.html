@@ -4,14 +4,38 @@
     	<meta charset="utf-8">
     	<meta name="description" content="This is where your description goes">
     	<meta name="keywords" content="one, two, three">
+		
 
 		<title>Whale Talk</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
+
+		
 	</head>
 	<body>
+		<section class="container">		
+			<section id="heading">
+			<h1>Whale Translator</h1>
+			</section>
+
+			<section id="userInput">
+				<div class="box">
+					<textarea placeholder="Enter your text here..." name="" id="myTextarea" maxlength="100"></textarea>
+					<section id="charCount"><div id="characterCount">0</div>/100<div></div></section>
+				</div>
+			</section>
+
+			<section id="whaleOutput">
+				<div class="box2">
+					<div id="whalePlace">Translation</div>
+					<div id="whaleTalk"></div>
+				</div>
+
+			</section>
+
+		</section>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
